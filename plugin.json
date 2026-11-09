@@ -1,0 +1,13 @@
+{
+  "id": "protonDux",
+  "name": "Proton VPN",
+  "description": "Controls Proton VPN using proton-vpn-cli.",
+  "version": "1.0.0",
+  "author": "bubner",
+  "icon": "vpn_key",
+  "type": "widget",
+  "capabilities": ["control-center"],
+  "component": "./Widget.qml",
+  "settings": "./Settings.qml",
+  "permissions": ["settings_read", "settings_write"]
+}
